@@ -1,0 +1,13 @@
+.cards-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+   
+
+}
+
+.about-heading{
+    text-align: center;
+    font-size: 45px;
+}

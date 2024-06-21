@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+ES+Deco:wght@100..400&family=Playwrite+NZ:wght@100..400&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.site-name{
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: gray;
+    padding: 5px;
+}
+
+.nav-item{
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.shop-name{
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+    padding: 0; 
+}
