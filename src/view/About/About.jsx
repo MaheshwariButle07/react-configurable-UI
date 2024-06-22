@@ -10,9 +10,6 @@ function About() {
         <>
 
         <Navbar />
-
-            <h2 className="about-heading">Theater Services We Provide.</h2>
-
            
             <h2 className="about-heading">Food Services We Provide.</h2>
 

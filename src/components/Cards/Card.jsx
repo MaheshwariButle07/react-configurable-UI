@@ -1,11 +1,11 @@
 import "./Card.css"
 import { Link } from "react-router-dom"
-import { theme } from "../../../data"
+import { theme, themeBorder } from "../../../data"
 
 const Card = ({ id, image, title, price, delivery, rating, reviews }) => {
   return (
     <Link to={`/cardpage/${id}`} >
-      <div style={{backgroundColor: theme.gray}} className="card-container">
+      <div style={{backgroundColor: theme.blue , border:themeBorder.blue}} className="card-container">
       <img src={image} className="card-img" />
       <h2 className="card-title">{title}</h2>
       <div className="card-flex">

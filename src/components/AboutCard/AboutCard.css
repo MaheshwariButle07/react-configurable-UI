@@ -16,7 +16,7 @@
 
 }
 
-.card-container:hover{
+.about-card-container:hover{
     box-shadow: 5px 5px 10px black;
     transform: translatey(-10px);
     transition: 650ms;

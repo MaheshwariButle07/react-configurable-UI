@@ -1,7 +1,6 @@
 .page-image{
-    height: 500px;
-    padding: 10px;
-   
+    height: 400px;
+    padding: 10px;   
 }
 
 .page-image-js{
@@ -10,29 +9,55 @@
 
 .card-page-container{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     margin: 10px;
+}
+
+.ap-card-rating{
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 50px;
+    padding: 5px;
+    margin:7px 40px;
+    border-radius: 10px;
+}
+
+
+
+.image-container{
+    display: block;
+    margin: 0 auto;
 }
 
 .card-info{
-    margin: 10px;
-    padding: 10px 40px;
+
+    padding: 10px 10px;
     font-size: 20px;
 }
+
 .card-title{
     font-weight: bold;
     font-size: 24px; 
-    padding: 10px 0;
+    padding:10px 20px ;
 }
 
 .card-price{
-    padding: 10px 0;
+    padding: 10px 20px;
+    margin:0 20px;
 }
 
 .card-description{
-    padding: 10px 0;
+    padding: 20px 20px;
+    margin:0 30px;
 }
 
 .card-delivery-info{
-    padding: 10px 0;
+    padding: 10px 20px;
+    margin:0 20px;
+}
+
+h3{
+    padding: 0 20px;
 }

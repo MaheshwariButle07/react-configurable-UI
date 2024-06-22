@@ -1,24 +1,19 @@
 .acp-card-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 300px;
-    padding: 20px;
-    margin: 10px;
+    margin: 30px 0;    
 }
 
 .acp-card-image{
-    height: 150px;
-    width: 150px;
-    margin: 10px auto;
-    
+    height: 350px;
+    margin: 10px auto ;   
 }
 
 .acp-title{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-   
+    background-color: gray; 
 }
 
 .acp-info-container{
@@ -30,4 +25,9 @@
    
     margin: 0 30px;
     font-size: 20px;
+    padding: 20px;
+}
+
+h1{
+    padding: 0 15px;
 }
